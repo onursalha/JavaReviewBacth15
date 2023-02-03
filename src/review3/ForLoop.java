@@ -1,37 +1,44 @@
 package review3;
 
 public class ForLoop {
+
     public static void main(String[] args) {
 
-        for (int i=1; i<=5; i++) {
+        // 1. initialization
+        // 2. condition
+        // 3. if true -> code goes inside the loop body
+        // goes back, increment
+        // repeat
+
+        for(int i=1; i<=5; i++) {
+
             System.out.println("Hello "+i);
-
         }
 
-        System.out.println("--------------------");
+        System.out.println( "  -----------   ");
 
-        for (int a=0;  a<8; a+=4){
+        for(int a=0; a<8; a+=4){
+
             System.out.println("Bye");
-
         }
 
+        System.out.println( "  -----------   ");
 
+        for(int i=2; i>10; i++){
 
-        for (int i=10; i>=5; i--){
             System.out.println(i);
-
-        }
-        for(int i=5; i<=1; i-- ) {
-            System.out.println("Happy");
         }
 
-        for (int i=1; i<=6; i++){
-            if (i%2==0){
+        System.out.println( "  -----------   ");
 
-
-            System.out.println(" even number "+i);
+        /*
+            for (int j=3; j<10; j--){
+                System.out.println(j);
             }
-        }
+*/
+
+
+        System.out.println("End");
 
     }
 }
